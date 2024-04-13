@@ -1,0 +1,89 @@
+
+.qwe p{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    color: green;
+    font-size: 30px;
+
+}
+
+
+
+.qwe section img {
+margin: 30px
+}
+
+.qwe .Pubg, .qwe .HS{
+margin-left: 55px;
+}
+
+.qwe img{
+height:180px;
+width:180px;
+}
+
+body{
+background-color:#d400ff;
+}
+
+header{
+display:flex;
+justify-content:center;
+animation:dribble 2s ease;
+}
+
+@keyframes dribble{
+	
+    from{
+		transform:translate(0px,-250px) ;
+	}
+	to{
+	    transform:translate(0px,0px)
+	}
+
+}
+
+ul{
+padding:30px;
+width:500px;
+background-color:#00ffee;
+border-radius:15px;
+box-shadow: 0 0 10px 0 #00ffee;
+display:flex;
+justify-content:space-between;
+flex-direction:row;
+list-style-type:none;
+}
+
+ul a{
+text-decoration:none;
+color:#d400ff;
+font-size:25px;
+}
+
+li:hover a{
+background-color:#d400ff;
+color:#00ffee;	
+border-radius:5px;
+}
+
+
+.form{
+text-align:center;
+margin:10px;
+}
+
+input{
+width:400px;	
+padding:10px;
+}
+
+.but_log{
+width:100px;
+padding:10px;
+}
+
+img{
+border-radius:5px;
+}

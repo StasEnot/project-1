@@ -1,0 +1,19 @@
+{%extends "basik_admin.html"%}
+
+{%block main%}
+<form name = “add_article” method="post" action="/add_post">
+			<h2>Add a new Article</h2>
+			<p>Article title</p>
+			<input name="title" type="text" required>
+			<p>Article text</p>
+			<textarea name="text" required rows="15" cols="100"></textarea>
+			<p>Image URL</p>
+			<input name="URL" type="url" required >
+			<p>Studio</p>
+            <input name="studio" type="text" required>
+			<br>
+			<button name="submit" type="submit">ADD ARTICLE</button>
+			<button name="reset" type="reset">RESET</button>
+</form>
+
+{%endblock%}
